@@ -1420,11 +1420,14 @@ footer .photo-container #Item:hover img{
     
 }
 @media only screen and (max-width:768px){
-    .buynow{
+    .btn1{
         display:none;
     }
+    .bottom .up-btn{
+        display: none;
+    }
     .popular .card{
-        width:80%;
+        width:100%;
     }
     .news .card{
         margin-bottom:5px;
@@ -1432,9 +1435,12 @@ footer .photo-container #Item:hover img{
     
 }
 @media only screen and (max-width:575px) {
-    .buynow{
+    .btn1{
         display:none;
     }  
+    .banner .btn{
+        padding:9px 20px;
+    }
    .upcoming .event
    {
     width:300px;
@@ -1471,6 +1477,12 @@ footer .photo-container #Item:hover img{
    .testimonial .nav-button{
     margin-left: 20px;
     margin-right: 20px;
+  }
+  .news{
+    padding-bottom: 30px;
+  }
+  footer .footdiv{
+    padding-top:30px ;
   }
   
 }
