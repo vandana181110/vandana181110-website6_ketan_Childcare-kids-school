@@ -1,0 +1,1647 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@1,300&family=Sacramento&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border:none;
+}
+body{
+    overflow-x: hidden;
+}
+/* Universal css start*/
+
+.text-orange{color:#EA512E;}
+.text-black{color: #1B0238 !important;}
+.text-silver{color:#6B6B84;}
+.text-purple{color:#1b0238}
+.bg-light-blue{background: #FAF7F2;}
+.bg-orange{background:#EA512E;}
+.bg-light-orange{background:#FDF6ED;}
+.bg-yellow{background: #f5890d !important;}
+.bg-light-pink{background: #FEE9CA;}
+.bg-pink{background:#FDEEE9;}
+.bg-pink1{background: #FCDED3;}
+.bg-pink2{background: #FCEFEA;}    
+.bg-light1{background: #FEF3E6;}
+.bg-blue{background: #091629 !important;}
+.bg-purple{background: #1B0238;}
+.bg-light-blue{background:#5899AD;}
+.bg-light-yellow{background:#DB9F4D;}
+.bg-light-voilet{background:#654982;}
+.bg-lightorange{background:#C8552E;}
+.btn{
+    color:#fff;
+    display: inline-block !important;
+    padding:10px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    transition: 0.5s;
+    overflow: hidden;
+    position:relative;
+    background:#EA512E;
+}
+.btn:hover{
+    color:#fff;
+    background: #f5890d;
+    transition:all .4s ease;
+   
+}
+
+.w-5{
+    max-width:25px;
+}
+.top-4{top:4%;}
+.top-5{top:5%;}
+.top-6{top:9%;}
+
+.top-20{top:90%;}
+.top-10{top:10%;}
+.start-10{left:10%;}
+.mt-3{margin-top:30px;}
+.mt-6{margin-top:70px;}
+.mt-7{margin-top:80px;}
+.mt-10{margin-top:100px;}
+.mt-20{margin-top:120px;}
+.pt-30{
+    padding-top: 30px;
+}
+.pb-30{
+    padding-bottom: 30px;
+}
+.pt-80{
+    padding-top: 50px;
+}
+.pt-65{
+    padding-top: 65px;
+}
+.pt-90{
+    padding-top:90px;
+}
+.pt-100{
+    padding-top: 100px;
+}
+.pb-70{
+    padding-bottom: 80px;
+}
+.pb-100{
+    padding-bottom: 100px;
+}
+
+p{
+    margin-bottom:15px;
+    line-height: 1.8;
+    color:#6B6B84;
+    font-weight: 400;
+    font-family:"Roboto",sans-serif;
+    font-size:16px;
+    line-height: 1.8;
+}
+img{
+    display: inline-block;
+    max-width:100%;
+    height:auto;
+}
+.popular span,
+.core-value span,
+.teacher span,
+.upcoming span,
+.news span,
+.test span{
+    display: inline-block;
+    text-align: center !important;
+    font-size: 25px;
+    color: #ea512e;
+    font-weight: 600;
+    font-family: "Sacramento" !important;
+}
+.popular h3,
+.core-value h3,
+.teacher h3,
+.upcoming h3,
+.news h3,
+.testimonial h3{
+    font-size: 45px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    font-family: "Catamaran", sans-serif;
+}
+/* Universal css end*/
+
+/* header section start */
+.navbar{
+    width: 100%; 
+    z-index: 999;
+    box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.09);
+    background-color: #fff ;
+    position:fixed;
+    top:0;
+}
+.navbar .navbar-brand {
+    max-width: 140px;
+}
+a.active{
+    color:#EA512E !important;
+}
+.nav-link:hover,
+.dropdown-item:hover{
+    color:#EA512E !important;
+    display: block;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    top: 50px;
+}
+.navbar-expand-xl .navbar-nav .dropdown-menu{
+    width: 300px;
+    border-radius: 0;
+    padding: 15px 0;
+    position:absolute;
+    opacity: visible;
+    transition: all 0.2s ease-in-out;
+    font-family:"Catamaran", sans-serif;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+
+/* header section end */
+
+/* shape section start */
+.shape-1{
+    top:3.5%;
+    left:.7%;
+     width:80px;
+    animation: move1 3s linear infinite alternate;
+}
+.shape-2{
+    top:3.5%;
+    left:50%;
+    width:80px;
+    animation: move2 3s linear infinite alternate;
+}
+.shape-3{
+    top:75%;
+    left:.7%;
+    z-index: 9;
+    width:80px;
+    animation:move3 3s linear infinite alternate;
+}
+.shape-4{
+    top:90%;
+    left:50%;
+    z-index: 9;
+    width:80px;
+    animation:move4 3s linear infinite alternate;
+}
+
+.shape-6{
+    top:97%;
+    left: 87%;
+    z-index: 9;
+    width:80px;
+    animation:move6 3s linear infinite alternate;
+}  
+.shape-12{
+    top:100%;
+    width:360px;
+}
+.shape-13{
+    top:100%;
+    width:360px;
+}
+.shape-14{
+    top:100%;
+    width:360px;
+}
+.up-btn{
+    width:50px;
+    height:50px;
+    font-weight:600;
+   position:fixed;
+    text-rendering: auto;
+    z-index: 99;
+    top:90%;
+    left:95%;
+}
+
+.up-btn:hover{
+    background-color:#ea512e ;
+    transform:  scale(1.1);
+    transition:all 0.4s linear;
+}
+/* shapes section end */
+
+/* banner section strat */
+.banner{
+    width:100%;
+    height:auto;
+    z-index:1;
+     margin-top: 70px;
+    background: url(../img/main-banner-bg.jpg);
+    background-size: 100% 100%;   
+}
+
+.btn1:hover{
+    color:#fff;
+    background: #f5890d;
+   
+}
+.banner h1{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+}
+.edugirl{
+   margin-right: 0%; 
+   height:80%;    
+}
+.btn1{
+    top:50%;
+    right:2%;
+    color:#fff;
+    display: inline-block;
+    padding:8px 15px;
+    font-size: 16px;
+    width:130px;
+    transform: translateY(-50%,-50%);
+    border-radius: 20px;
+    font-weight: 500;
+    transition:0.5s ease;
+    position:fixed;
+    z-index:999 !important;
+    background:#7CAC41;
+    animation:rotate 2s linear infinite alternate;
+}
+
+.btn1 img{
+    width:18px;
+    height:18px;
+}
+
+/* banner section end */
+/* kindergarden section start */
+
+.kinder span{
+    color:#EA512E;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Sacramento";
+} 
+.kinder h3{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Catamaran", sans-serif;
+
+} 
+.kinder .list{
+    display: inline-block;
+    padding:0px;
+    margin:0px;
+}
+.kinder .list li{
+    list-style: none;
+}
+    
+.kinder .list li span
+{
+    background-color: #EA512E;
+    font-family: "Roboto", sans-serif;
+    display: inline-block;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    line-height: 30px;
+    color:#fff;
+    text-align: center;
+    position: absolute;
+    transition:0.5s ease;
+    font-weight: 600;
+}
+
+.kinder ul li:hover span{
+    background:#f5890d;
+    transition: all 1s ease-in-out;
+}
+.kinder .image::before{
+    content:"";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #ea512e;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 50%;
+    animation: border-transform-default 40s linear infinite alternate forwards;
+}
+.kinder .image img{
+    border-radius: 50%;
+    padding:20px;
+}
+.kinder .image::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #f5890d;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 50%;
+    animation: border-transform-default 50s linear infinite alternate forwards;
+}
+/* kindergarden section end */
+
+/* Popular classes section start */
+
+.popular .info ul{
+    display: flex;
+    list-style: none;
+}
+.popular .info ul li{
+    font-weight: 500;
+    
+}
+.popular .orange-border .span1{
+    font-size: 16px;
+    font-family: "Catamaran", sans-serif !important;
+}
+.popular .orange-border{
+    border-top: 1.5px dotted #EA512E;
+  
+}
+.popular.h4{
+    font-size:20px;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+}
+.popular .card:hover img{
+    transform: rotate(1deg) scale(1.2);
+    transition:all 0.3s linear;
+}
+.popular .card:hover .card-title{
+    color:#EA512E !important;
+    transition: all 0.7s ease-in-out;
+}
+.popular .card:hover .btn2{
+    background:#f5890d !important;
+    transition: all 0.7s ease-in-out;
+}
+.card-body .btn2{
+    position: relative;
+    margin-top: -16px;
+    padding: 5px;
+    border-radius: 0px 0px 0px 10px;
+    float: right;
+    left: 15px;
+}
+.popular .popular-shape7{
+    top:78%;
+    left:0%;
+}
+.popular .popular-shape8{
+    top:64%;
+    left:77%;
+}
+/* Popular classes section end */
+
+/* core value section start */
+.core-value .core-content{
+    z-index: 9;
+}
+.core-value .number{
+    width:60px;
+    height:60px;
+    line-height: 60px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top:1.5%;
+    margin-right:20px;
+    color:#1B0238;
+    border:1px solid #fff;
+    outline:2px solid #ccc;
+    outline-offset: 2px;
+    font-family: "Catamaran", sans-serif !important;
+    transition: 0.5s;
+    cursor:pointer;
+}
+.core-value h4{
+    font-weight: 600;
+}
+.core-value .number:hover{
+    color:#fff;
+    background: #EA512E !important;
+    transition:0.2s;
+    outline-color:#EA512E;
+}
+.core-value-shape1{
+    top:-15%;
+    left:-3%;
+}
+.core-value-shape2{
+    top:90%;
+    left:-3%;
+}
+.core-value-shape3{
+    top:2%;
+    right:0%;
+    z-index:-1;
+}
+
+/* core value section end */
+/* teacher section start */
+.teacher{
+    background: url(../img/teacher-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index:-9;
+}
+.teacher .social-media{
+   bottom:4px;
+   left:0;
+   right:0;
+   margin-bottom: -50px;
+   transition:all 0.3s ease-in;
+}
+.teacher .social-media li
+{
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    line-height: 30px;
+   background: #EA512E;
+
+}
+.teacher .single-teacher:hover .social-media{
+    margin-bottom: 0px;
+    transition: all 0.3s ease-out;
+}
+.teacher .social-media li:hover{
+    background: #f5890d;
+}
+.teacher .teacher-name h4{
+    font-size: 30px;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+}
+.teacher .teacher-image{
+    z-index: 1;
+}
+
+.teacher .teacher-image::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color:#EA512E;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    border-radius: 50%;
+    animation: border-transform-default 10s linear infinite alternate forwards
+}
+/* teacher section end */
+
+/* testimonial section start */
+.testimonial span{
+    color:#EA512E;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Sacramento"; 
+}
+.testimonial .slider-wrap{
+    overflow-x: hidden;
+    position: relative;
+    height:600px;
+}
+.testimonial .slider-main{
+    padding-top:70px;
+    position: absolute;
+    width:135%;
+    height:600px;
+    margin-left: 30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+   
+}
+.testimonial .item{
+    width:360px;
+    margin-right:0px;
+    display: inline-block;
+    
+}
+.testimonial button{
+    margin-top:400px;
+    background: #EA512E;
+}
+.testimonial .slider-main .item .card{
+    height:auto;
+    width:340px;
+    border-radius: 50%;
+}
+.testimonial .item .card span {
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background: #fff;
+    color:#EA512E;
+    margin-left:40%;
+    line-height: 50px;
+}
+.testimonial .nav-button button{
+    width:50px;
+    height:50px;
+    color:#fff;
+    line-height: 35px;
+    font-size:40px;
+    font-weight: 600;
+    border-radius: 50%;
+    margin-left:-20px;
+    margin-right:-15px;
+    margin-top:25px;
+}
+.testimonial .item:hover span{
+    color:#fff;
+    background-color: #EA512E !important;
+ }
+
+.testimonial .nav-button button:hover{
+    background: #f5890d;
+    transition:.5s linear;
+}
+.testimonial div p{
+    font-style: italic;
+}
+.testimonial .item .shape{
+    margin-top:30px;
+    margin-left:20%;
+}
+
+/* testimonial section end */
+
+/* upcoming section start */
+.upcoming{
+    background: url("../img/event-bg.jpg") ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+.upcoming .event-date,
+.upcoming .event-content{
+    margin-top:40px;
+}
+.upcoming .event-content h4{
+    font-size: 25px;
+    color: #1b0238;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+}
+.upcoming .event-date h1{
+    font-size: 80px;
+    font-family: "Catamaran", sans-serif;
+}
+.upcoming .event-date h6{
+    font-size: 20px;
+    font-family: "Catamaran", sans-serif;
+}
+/* /upcoming section end */
+
+
+/* news section start */
+.news .card-span{
+     font-size:16px;
+    font-family:  "Catamaran", sans-serif !important ;
+}
+.news .card{
+    border-radius: 20px !important;
+}
+.news .card:hover .card-img{
+    transform: rotate(2deg) scale(1.2);
+    transition:all 0.3s linear;
+}
+.news .card:hover .card-title{
+    color:#EA512E !important;
+    transition: all 0.7s ease-in-out;
+}
+.news .card:hover .btn3{
+    background:#f5890d !important;
+    transition: all 0.7s ease-in-out;
+}
+
+/* /news section end */
+
+
+/* footer section start */
+footer{
+    width:100%;
+    height:auto;
+    background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/footer-bg.jpg);
+    background-size: 100% 100%;
+}
+footer h2{
+    font-size: 50px;
+    font-family: "Catamaran", sans-serif;
+}
+.single-class h3 {
+    font-size: 25px;
+    color: #ffffff;
+    font-family:"Catamaran", sans-serif; ;
+}
+footer .social-media ul li i{
+    width:50px;
+    height:50px;
+}
+footer .single-class h3::before {
+    position: absolute;
+    content: '';
+    top:140px;
+    height: 2px;
+    width: 50px;
+    background-color: #ea512e;
+}
+.single-class .cont:hover{
+    color: #ea512e !important;
+    transition:0.5s;
+}
+.single-class .cont::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width:0px;
+    height: 1px;
+    background-color: #ea512e;
+}
+
+.single-class .cont:hover::after{
+    width:100%;
+    transition: 0.5s;
+    background-color: #ea512e;
+}
+footer .photo-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap:5px;
+
+}
+footer .photo-container #Item:hover img{
+    transform: rotate(2deg) scale(1.2);
+    transition:all 0.3s linear;
+}
+.single-class ul li .activiti::after{
+     content: '';
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width:10px;
+    height: 1px;
+    background-color: #ea512e; 
+}
+.single-class .activiti:hover::after{
+    width:100%; 
+    background-color: #ea512e; 
+}
+/* /footer section end */
+
+/* bottom footer section start */
+
+
+/* bottom footer section end */
+
+
+
+/*------------------------------About Page Css code Start------------------------- */
+/* banner section start */
+.breadcrumb .container-fluid{
+    width:100%;
+    height:570px;
+   position: relative;
+   z-index: 1;
+   background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/page-banner-1.jpg);
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding-top: 200px;
+   padding-bottom: 200px;
+   background-attachment: fixed;
+}
+.breadcrumb .breadcrumb-item {
+   text-align: center ;
+   color:#EA512E;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+   content: var(--bs-breadcrumb-divider, "|");
+   color:#EA512E;
+}
+/* banner section end */
+
+/* about section start */
+.about{
+   width:100%;
+   height:auto;
+}
+.about span{
+   color:#EA512E;
+   font-size: 25px;
+   font-weight: 600;
+   font-family: "Sacramento";
+} 
+.about h3{
+   font-size: 45px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   font-family: "Catamaran", sans-serif;
+} 
+.about .list{
+   padding:0px;
+   margin:0px;
+}
+.about .list li{
+   list-style: none;
+}
+   
+.about .list li span
+{
+   background-color: #EA512E;
+   font-family: "Roboto", sans-serif;
+   display: inline-block;
+   font-size: 16px;
+   width: 30px;
+   height: 30px;
+   border-radius: 50px;
+   line-height: 30px;
+   color:#fff;
+   text-align: center;
+   position: absolute;
+   transition:0.5s ease;
+   font-weight: 600;
+}
+
+.about ul li:hover span{
+   background:#f5890d;
+   transition: all 1s ease-in-out;
+}
+/* about section end */
+
+/* funfact section start */
+.fun-fact{
+    width:100%;
+    height:auto;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3),rgba(0,0,0,0.43)), url(../img/fun-facts-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.fun-fact .single-fun{
+    width:250px;
+    height:250px;
+    text-align: center;
+     margin-right: 10px;
+     opacity: 0.90;
+}
+.single-fun h3{
+      font-size: 55px;
+      font-family: "Helvetica Neue", sans-serif;
+    line-height: 1.1em;
+}
+/* /funfact section end */
+
+/* expert teacher section start */
+.experts .social-media{
+    bottom:100px;
+    left:15px;
+    right:0;
+    visibility:hidden;
+    color:#fff;
+    margin-bottom: -50px;
+    transition:all 0.2s ease-in;
+ }
+ .experts .social li
+ {
+     width:30px;
+     height:30px;
+     border-radius: 50%;
+     line-height: 30px;
+     color:#EA512E !important;
+    background:#fff;
+    font-weight: 700;
+ 
+ }
+ .experts .social li a{
+    color:#EA512E;
+ }
+ .experts .single-teacher-image:hover .social-media
+ {
+   margin-bottom: 0px;
+   visibility: visible;
+   transition: all 0.3s ease-out;
+ }
+ .single-teacher-image .image::after :hover  {
+    width: 100%;;
+    content: '';
+    position: absolute;
+    height: 100%;
+    background-color: #000000;
+    transition: 0.5s;
+}
+.experts .social-media li:hover{
+    background: #f5890d;
+    
+}
+.experts .social-media li a:hover{
+    color:#fff;
+    
+}
+/* /expert teacher section end */
+
+/* registration section start */
+.register{
+    width:100%;
+    height:800px;
+    background: url(../img/quote-bg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.register .form-content span{
+    color:#EA512E;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Sacramento";
+ } 
+ .register h3{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Catamaran", sans-serif; 
+}
+.register .form-info{
+    background-color: #fff;
+    margin-left: 380px;
+
+}
+.register .form-group{
+    width:100%;
+    height:75px;
+}
+.register .form-group.active{
+    width:100%;
+    height:75px;
+    box-shadow: unset!important;
+    border: 1px solid #C8552E;
+    background-color: transparent;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+/* registration section start */
+
+/* coursess section start */
+.courses span{
+    color:#EA512E;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Sacramento";
+ } 
+.courses h3{
+    font-size: 45px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: "Catamaran", sans-serif; 
+ }
+ .choose-shape1{
+    top:-1%;
+    left:53%;
+    animation: move7 2s linear infinite alternate;
+}
+.choose-shape2{
+    top:55%;
+    left:86%;
+    z-index: -1;
+    animation: move8 2s linear infinite alternate;
+}
+.choose-shape3{
+    top:65%;
+    left:56%;
+    z-index: -1;
+    animation: move9 2s linear infinite alternate;
+}
+
+/* coursess section end */
+
+/* testimonial 2 section start */
+.testimonials{
+    width:100%;
+    height:700px;
+}
+.testimonials span{
+    color:#EA512E;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Sacramento";
+ } 
+ .testimonials h3{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Catamaran", sans-serif; 
+}
+.testimonials p{
+  font-style: italic;
+  font-size:25px;
+}
+
+
+.testimonials .slider-wrap{
+    overflow-x: hidden;
+    position: relative;
+    height:700px;
+}
+.testimonials .slider-main{
+    width:2500px;
+    display: inline-block;
+    position: absolute;
+    width:205%;
+    height:600px;
+    z-index: 99;
+}
+.testimonials .slider-main .item{
+    width:1199px !important;
+    height:500px;
+}
+
+.testimonials .nav-button{
+    margin-left:80%;
+    margin-top: -40%;
+}
+.testimonials .nav-button button{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    font-size: 40px;
+    color: #fff;
+    line-height:50px ;
+    background: #EA512E;
+}
+.testimonials .item img{
+    width:380px;
+    height: 380px;
+
+}
+
+.testimonials .item .test-content{
+    margin-top:20px;
+    margin-left: 10px;
+    width:700px;
+}
+
+  
+/* testimonial 2 section end */
+
+/* pricing section start */
+.price span{
+    color:#EA512E;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Sacramento";
+ } 
+ .price h3{
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Catamaran", sans-serif; 
+}
+.price table{
+    width:100%;
+    border: 1px solid gray;
+}
+.price td,.price th{
+    border: 1px solid #f0f0f0;
+    font-weight: 400;
+    color: #6b6b84;
+    overflow-x: auto;
+    font-family: "Roboto", sans-serif;
+    padding: 30px 25px;
+    font-size: 16px;
+}
+
+/* pricing section end */
+
+
+/* newsletter section start */
+.newsletter-form button {
+    position: absolute;
+    right: 6px;
+    top: 9px;
+    background-color: #ea512e;
+    color: #ffffff;
+    border: none;
+    height: 52px;
+    padding: 0 30px;
+    border-radius: 5px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    line-height: 50px;
+    text-transform: capitalize;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+.news-shape1{
+    top:-30px;
+    left:-40px;
+    z-index:1;
+    width: 260px;
+}
+.news-shape2{
+    top:-95%;
+    left:80%;
+    width:23%;
+}
+.newsletter .newsletter-content,
+.newsletter .newsletter-form{
+    z-index: 9;
+}
+/* newsletter section end */
+
+/* partner section start */
+
+
+.partner .slider-wrap{
+    overflow-x: hidden;
+    position: relative;
+    height:120px;
+}
+.partner .slider-main{
+  
+    position: absolute;
+    width:130%;
+    height:80px;
+    margin-left: 30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.partner .item{
+    width:286px;
+    margin-right:0px;
+    display: inline-block;  
+}
+.partner .nav-button{
+    top:10px;
+    left:40px;
+}
+/* partner section end */
+
+/*---------------------------About Page Css code end---------------------- */
+/* $$$$$$$$$$$$$$$$$$$    TEACHER PAGE CSS CODE START  $$$$$$$$$$$$$$$$$$$ */
+.breadcrumb2 .container-fluid{
+    width:100%;
+    height:570px;
+   position: relative;
+   z-index: 1;
+   background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/page-banner-2.jpg);
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding-top: 200px;
+   padding-bottom: 200px;
+   background-attachment: fixed;
+}
+.breadcrumb2 .breadcrumb-item {
+   text-align: center ;
+   color:#EA512E;
+}
+
+.breadcrumb2-item+.breadcrumb2-item::before {
+   content: var(--bs-breadcrumb-divider, "|");
+   color:#EA512E;
+}
+/* $$$$$$$$$$$$$$$$$$$   / TEACHER PAGE CSS CODE END    $$$$$$$$$$$$$$$ */
+
+/* ************     EVENT PAGE CSS CODE START    *********/
+.breadcrumb3 .container-fluid{
+    width:100%;
+    height:570px;
+   position: relative;
+   z-index: 1;
+   background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/page-banner-2.jpg);
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding-top: 200px;
+   padding-bottom: 200px;
+   background-attachment: fixed;
+}
+.breadcrumb3 .breadcrumb-item {
+   text-align: center ;
+   color:#EA512E;
+}
+
+.breadcrumb3-item+.breadcrumb2-item::before {
+   content: var(--bs-breadcrumb-divider, "|");
+   color:#EA512E;
+}
+
+.event .event-box-item .event-image,
+.event .evetn-date{
+    vertical-align: middle;
+}
+.event .event-box-item .event-content h3 a {
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 5px;
+    background-color: #fcded3;
+    color: #ea512e;
+    text-align: center;
+
+}
+.event .event-box-item .event-content h3{
+    font-family: "Catamaran", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+.event .event-box-item .event-date h4 {
+    font-size: 80px;
+    margin-bottom: 0;
+}
+.event .event-box-item .event-date span{
+    font-size: 20px;
+    color: #ea512e;
+    margin-top: 10px;
+    font-weight: 500;
+   margin-left:30px;
+}
+
+/* ************    / EVENT PAGE CSS CODE END   *********/
+/* ***********   class page css code start     ***********/
+.popular .popular-shape-1
+{
+    top:88%;
+    left:-4%;
+}
+/* ***********   class page css code  end   **********/
+
+
+/* ******contact page css start */
+.contact .contact-info h3{
+    font-size:25px;
+    font-family: "Catamaran", sans-serif;
+    color:#1B0238;
+}
+.contact .contact-info span{
+    font-weight: 800;
+}
+.map iframe{
+    width:100%;
+    height:500px;
+
+}
+/* ******contact page css end */
+
+/* ******class details page css start */
+.breadcrumb4 .container-fluid{
+    width:100%;
+    height:570px;
+   position: relative;
+   z-index: 1;
+   background-image:linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/page-banner-5.jpg);
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   padding-top: 200px;
+   padding-bottom: 200px;
+   background-attachment: fixed;
+}
+.breadcrumb2 .breadcrumb-item {
+   text-align: center ;
+   color:#EA512E;
+}
+.nav-pills .nav-link{
+    height:50px;
+    width:120px;
+    border-radius: 0%;
+    color: #000000;
+    background-color:#FCEFEA;
+}
+.nav-pills .nav-link.active{
+    color:#fff !important;
+    background-color:#EA512E;
+}
+.class-details .sidebar ul li span {
+    color: #1b0238;
+    font-size: 16px;  
+}
+.class-details .sidebar h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #C8552E;
+    padding-bottom: 15px;
+    position: relative;
+}
+.class-details .sidebar{
+    box-shadow: 0px -10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    border-top: 3px solid #ea512e;
+    padding: 40px 30px;
+}
+/* ******class details page css end */
+@keyframes move1{
+    from{}
+    to{left:3%;}
+}
+@keyframes move2{
+    from{}
+    to{left:52%;}
+}
+@keyframes move3{
+    from{}
+    to{left:3%;}
+}
+@keyframes move4{
+    from{}
+    to{top:84%;}
+}
+
+@keyframes move6{
+    from{}
+    to{left:89%;}
+}
+@keyframes move7{
+    from{}
+    to{left:50%;}
+}
+@keyframes move8{
+    from{}
+    to{left:83%;}
+}
+@keyframes move9{
+    from{}
+    to{left:53%;}
+}
+/* buy now button animation */
+@keyframes rotate {      
+      0%{
+        transform:scale3d(1,1,1);
+      }
+      10%, 20% {
+        transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+      }
+      30%, 50%, 70%, 90%{
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+      }
+      40%, 60%, 80% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+      }
+      100%{
+         transform: scale3d(1, 1, 1);
+      }
+}
+@keyframes border-transform-default {
+    0%, 100% {
+        border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+    }
+    14% {
+        border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+    }
+    28% {
+        border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+    }
+    42% {
+        border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+    }
+    56% {
+        border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+    }
+    70% {
+        border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+    }
+    84% {
+        border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+    }
+}
+
+/* %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% */
+/* media query section strat */
+@media only screen and (max-width:1199px) {
+    .shape{
+        display: none;
+    }
+    .testimonial .slider-main{
+        margin-left:20px;
+        height:460px;
+    }
+    .testimonial .item{
+        width:450px;
+    }
+    .testimonial .slider-wrap{
+        height:500px;
+    }
+    .testimonial{
+        padding-bottom: 20px;
+    }
+    .popular .popular-shape8{
+        left:70%;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .shape-1, .shape-2, .shape-3 ,.shape-4,.shape-5,.shape-6,.shape-7,.shape-8, .cloud,.popular-shape7,
+    .popular-shape8,
+    .core-value-shape1, .core-value-shape2, .core-value-shape3, .shape{
+             display: none;
+    }
+    .banner h1{
+        font-size: 50px;
+    }
+    
+    .bottom_banner{
+        text-align: center;
+    }
+    .banner .banner-content{
+        margin-top:-85px;
+    }
+    .banner{
+        padding-bottom:10px;
+    }
+    .popular h3, .kinder h3, .core-value h3, .teacher h3, .upcoming h3, .news h3, .testimonial h3 {
+        font-size: 30px;
+    }
+
+    .core-value .number{
+        margin-left: 9px;
+    }    
+    .core-value .content{
+        width:70%;
+    }    
+       
+    
+    .testimonial .slider-main .item{
+      width:340px;
+    
+    }
+    .testimonial .nav-button{
+        z-index:-1;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .testimonial .slider-wrap{
+        height:500px;
+    }
+    .testimonial{
+        padding-bottom: 20px;
+    }
+    footer .single-class{
+       padding-top:30px !important;
+    }
+    footer .single-class h3::before {
+      display: none;
+    }
+    
+    
+    
+}
+@media only screen and (max-width:768px){
+    .buynow{
+        display:none;
+    }
+    .popular .card{
+        width:80%;
+    }
+    .news .card{
+        margin-bottom:5px;
+    }
+    
+}
+@media only screen and (max-width:575px) {
+    .buynow{
+        display:none;
+    }  
+   .upcoming .event
+   {
+    width:300px;
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+   }
+   .upcoming .event .event-content{
+    width:200px;
+   }
+   .upcoming .event .event-image,
+   .upcoming .event .event-date{
+    width:200px;
+   }
+   .testimonial .slider-main .item {
+    margin-left:30px;
+   }
+   .testimonial .slider-main .item .card p{
+    font-size: 12px;
+    padding:0rem;
+   }
+  .testimonial .slider-main .item .card{
+    width:189px;
+    height:385px;
+    margin-top:2px;
+    margin-left: 15px;
+   }
+   .testimonial h4{
+    font-size: 15px ;
+   }
+   .testimonial h6{
+    font-size: 10px ;
+   }
+   .testimonial .nav-button{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+}
+/* -----------------//////------ABOUT PAGE RESPONSIVE--------------///////----- */
+
+
+@media only screen and (max-width:1199px) {
+    .fun-fact .single-fun{
+        width:225px;
+    }
+    .partner .slider-wraper{
+        height:110px;
+        width:3000px;
+    }
+    .partner .slider-wraper .slider-main{
+        width:1500px;
+    }
+    .testimonials .item .test-content {
+        width:578px;
+    }
+    .testimonials .nav-button {
+        margin-left: 67%;
+        margin-top: -33%;
+    }
+}
+@media only screen and (max-width:993px) {
+    .fun-fact .single-fun{
+        width:300px;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .testimonials .item img {
+        width: 275px;
+        height: 275px;
+        z-index: 9;
+    }
+    .testimonials .test-content p{
+       font-size: 15px;
+    }
+    .testimonials  .nav-button{
+        margin-left:50%;
+        margin-top: -35%;
+    }
+    .testimonials .test-img::before{
+        content:"";
+        position: absolute;
+        width:275px;
+        height: 275px;
+        background-color: #ea512e;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: -1;
+        border-radius: 50%;
+        animation: border-transform-default 30s linear infinite alternate forwards;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .fun-fact .single-fun{
+        width:250px; 
+    }
+    .experts{
+        padding-top:0px;
+    }
+    .experts .single-teacher-content{
+        padding-top:40px;
+        margin-left:20px;
+    }
+    .register .form-info {
+        margin-left:178px;
+    }
+    .choose-shape1,.choose-shape2,.choose-shape3{
+        display: none;
+    }
+   .newsletter .newsletter-form{
+    padding-top: 120px;
+   }
+   .newsletter .newsletter-form button{
+    margin-top:120px;
+   }
+   .newsletter .news-shape2{
+    margin-top:400px;
+   }
+   
+   .testimonials .item img {
+    width: 212px;
+    height: 237px;
+}
+  .testimonials .nav-button {
+    margin-left: 35%;
+    margin-top: -50%;
+   }
+   .testimonials .item .test-content {
+    width:520px;
+    }
+    .testimonials .test-img::before{
+        content:"";
+        position: absolute;
+        width:212px;
+        height: 212px;
+        background-color: #ea512e;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: -1;
+        border-radius: 50%;
+        animation: border-transform-default 30s linear infinite alternate forwards;
+    }
+    .about .content{
+        margin-top:30px;
+    }
+    .partner .item{
+        width:238px;
+    }
+    .partner .slider-wrap{
+        height:90px;
+    }
+    .partner {
+        padding-bottom: 0px !important;
+    }
+    .partner .slider-main{
+        width:2000px;
+    }
+    .partner .item{
+    width: 235px;
+    overflow-x:hidden;
+    }
+    .partner .item {
+        width: 370px;
+    }
+}
+@media only screen and (max-width:575px) {
+    .register .form-info {
+        margin-left:15px;
+    }  
+    .register .form-info h3{
+        font-size: 30px;
+    }
+    .testimonials .nav-button {
+        margin-left: 35%;
+        margin-top: -120%;
+       }
+       .testimonials .item .test-content {
+        width:520px;
+        }
+        .testimonials .item{
+            display: block;
+        }
+        .testimonials .item img {
+            width: 180px;
+            height: 180px;
+        }
+        .testimonials .test-img::before{
+            display: none;
+        }
+        .partner .item {
+            width: 270px;
+            margin-right:60px;
+    
+        }
+        .partner .item img {
+            width: 134%;
+        }
+        .price td,.price th{
+            padding: 10px 5px;
+            font-size: 15px;
+        }
+
+}
+
+/* media query section end */
+
