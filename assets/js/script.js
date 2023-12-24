@@ -8,8 +8,8 @@ function next(){
 function prev(){
    sliderMain.prepend(item[item.length-1]); 
 }
-// setInterval(
-//    next,3000);
+setInterval(
+   next,3000);
 
 
 function gohome()
